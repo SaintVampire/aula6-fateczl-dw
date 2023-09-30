@@ -1,155 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Essa é a nossa página principal">
+    <meta name="author" content="Leonardo Barbosa da Silva">
+    <meta name="keywords" content="Aula06, Desenvolvimento Web, Fatec ZL">
+    <title>Pagina Inicial</title>
+    <style>
+        @import url(CSS/style.css);
+    </style>
 </head>
 
 <body>
-    <h2>Inserindo Multimidias</h2>
-    <div>
-        <!-- Imagem local-->
-        <img width="250px" src="./source/image/SpeedRacerCapa.webp" alt="Capa do desenho do Speed Racer"><br>
-        <!-- Imagem da internet-->
-        <img width="250px" src="https://br.web.img3.acsta.net/pictures/22/07/13/22/04/0653185.jpg"
-            alt="Close no rosto do personagem principal"><br>
-        <!--Audios e videos podem ser utilizados em URL, mas cuidado com links quebrados-->
-        <!--Audio local-->
-        <audio controls>
-            <source src="./source/audio/Solitude_Aeturnus-SeedsOfTheDesolate.mp3">
-        </audio><br>
-        <!--video local-->
-        <video controls width="560" height="315">
-            <source src="./source/video/Solitude_Aeturnus-SeedsOfTheDesolate.mp4">
-        </video><br>
-        <!--Utilizando iframe-->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/0OiPnR-H20M?si=FcwM8hGsZnR7taam"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-    </div>
-    <!--Utilizando divs-->
-    <div>
-        <!--aparecer hiperlink-->
-        <h2>Criando um link</h2>
-        <a href="https://www.google.com.br/">Google</a><br>
-    </div>
-    <div>
-        <h2>Criando uma Tabela</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Nome</th>
-                    <th>Idade</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>João</td>
-                    <td>25</td>
-                </tr>
-                <tr>
-                    <td>Maria</td>
-                    <td>30</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>Há um total de 2 registros</td>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
-    <div>
-        <h2>Criando Listas</h2>
-        <h3>Lista de Campeões do Mundo FIFA</h3>
-        <!--Lista Ordenada-->
-        <h6>Lista ordenada</h6>
-        <ol>
-            <li>Brasil</li>
-            <li>Alemanhã</li>
-            <li>Itália</li>
-            <li>Argentina</li>
-            <li>França</li>
-            <li>Uruguai</li>
-            <li>Espanha</li>
-            <li>Inglaterra</li>
-        </ol>
-        <!--Lista Não Ordenada-->
-        <h6>Lista não ordenada</h6>
+    <nav>
+        <p>Lorem ipsum dolor sit amet.
+        Optio consequatur totam facere molestiae?
+        Voluptas maxime deserunt quos voluptate.
+        Ipsa ratione tempora quae iusto.
+        Eius fuga sunt ad quos!</p>
+        <h2 style="color: brown;">Menu</h2>
         <ul>
-            <li>Brasil</li>
-            <li>Alemanhã</li>
-            <li>Itália</li>
-            <li>Argentina</li>
-            <li>França</li>
-            <li>Uruguai</li>
-            <li>Espanha</li>
-            <li>Inglaterra</li>
+            <li><a href="#">Página Inicial</a></li>
+            <li><a href="Contato.html"> Contato</a></li>
+            <li><a href="Sobre.html"> Sobre</a></li>
         </ul>
-    </div>
-    <div>
-        <!--Formulário-->
-        <h2>Criando Formulário</h2>
-        <form action="#" method="post">
-            <label>Nome Completo</label>
-            <input type="text" id="nome_completo" name="nome_completo"><br>
 
-            <label>E-mail</label>
-            <input type="email" id="email_aluno" name="email_aluno"><br>
+    </nav>
+    <main>
+        <h5>Inserindo Multimidias</h5>
+        <div>
+            <!-- Imagem local-->
+            <img width="250px" src="./source/image/SpeedRacerCapa.webp" alt="Capa do desenho do Speed Racer"><br>
+            <!-- Imagem da internet-->
+            <img width="250px" src="https://br.web.img3.acsta.net/pictures/22/07/13/22/04/0653185.jpg"
+                alt="Close no rosto do personagem principal"><br>
+            <!--Audios e videos podem ser utilizados em URL, mas cuidado com links quebrados-->
+            <!--Audio local-->
+            <audio controls>
+                <source src="./source/audio/Solitude_Aeturnus-SeedsOfTheDesolate.mp3">
+            </audio><br>
+            <!--video local-->
+            <video controls width="560" height="315">
+                <source src="./source/video/Solitude_Aeturnus-SeedsOfTheDesolate.mp4">
+            </video><br>
+            <!--Utilizando iframe-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0OiPnR-H20M?si=FcwM8hGsZnR7taam"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <!--Utilizando divs-->
+        <div>
+            <!--aparecer hiperlink-->
+            <h2>Criando um link</h2>
+            <a href="https://www.google.com.br/">Google</a><br>
+        </div>
+        <div>
+            <h2>Criando uma Tabela</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Há um total de 2 registros</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div>
+            <h2>Criando Listas</h2>
+            <h3>Lista de Campeões do Mundo FIFA</h3>
+            <!--Lista Ordenada-->
+            <h6>Lista ordenada</h6>
+            <ol>
+                <li>Brasil</li>
+                <li>Alemanhã</li>
+                <li>Itália</li>
+                <li>Argentina</li>
+                <li>França</li>
+                <li>Uruguai</li>
+                <li>Espanha</li>
+                <li>Inglaterra</li>
+            </ol>
+            <!--Lista Não Ordenada-->
+            <h6>Lista não ordenada</h6>
+            <ul>
+                <li>Brasil</li>
+                <li>Alemanhã</li>
+                <li>Itália</li>
+                <li>Argentina</li>
+                <li>França</li>
+                <li>Uruguai</li>
+                <li>Espanha</li>
+                <li>Inglaterra</li>
+            </ul>
+        </div>
+        <div>
+            <!--Formulário-->
+            <h2>Criando Formulário</h2>
+            <form action="#" method="post">
+                <label>Nome Completo</label>
+                <input type="text" id="nome_completo" name="nome_completo"><br>
 
-            <label>Senha</label>
-            <input type="password" id="senha_aluno" name="senha_aluno"><br>
+                <label>E-mail</label>
+                <input type="email" id="email_aluno" name="email_aluno"><br>
 
-            <label>Data Nascimento</label>
-            <input type="date" id="dt_nascimento_aluno" name="dt_nascimento_aluno"><br>
+                <label>Senha</label>
+                <input type="password" id="senha_aluno" name="senha_aluno"><br>
 
-            <label>CPF</label>
-            <input type="number" id="cpf_aluno" name="cpf_aluno"><br>
+                <label>Data Nascimento</label>
+                <input type="date" id="dt_nascimento_aluno" name="dt_nascimento_aluno"><br>
 
-            <label>Sexo</label>
-            <input type="radio" value="Masculino" id="radio_sexo_masc" name="radio_sexo">Masculino
-            <input type="radio" value="Feminino" id="radio_sexo_fem" name="radio_sexo">Feminino
-            <input type="radio" value="Indefinido" id="radio_sexo_indef" name="radio_sexo">Indefinido
-            <br>
+                <label>CPF</label>
+                <input type="number" id="cpf_aluno" name="cpf_aluno"><br>
 
-            <label>Minha cor favorita</label>
-            <input type="color" id="cor_aluno" name="cor_aluno"><br>
+                <label>Sexo</label>
+                <input type="radio" value="Masculino" id="radio_sexo_masc" name="radio_sexo">Masculino
+                <input type="radio" value="Feminino" id="radio_sexo_fem" name="radio_sexo">Feminino
+                <input type="radio" value="Indefinido" id="radio_sexo_indef" name="radio_sexo">Indefinido
+                <br>
 
-            <!-- Multiplas respostas (multiple) -->
-            <label>Minhas Linguagens Favoritas</label>
-            <select id="linguagem_favorita" multiple>
-                <option value="Java">Java</option>
-                <option value="Phyton">Phyton</option>
-                <option value="PHP">PHP</option>
-                <option value="JavaScript">JavaScripta></option>
-            </select><br>
+                <label>Minha cor favorita</label>
+                <input type="color" id="cor_aluno" name="cor_aluno"><br>
 
-            <!-- Única resposta -->
-            <label>Idioma favorito</label>
-            <select id="idioma_favorito">
-                <option value="Portugues">Java</option>
-                <option value="Ingles">Phyton</option>
-                <option value="Espanhoil">PHP</option>
-                <option value="Frances">JavaScripta></option>
-            </select><br>
+                <!-- Multiplas respostas (multiple) -->
+                <label>Minhas Linguagens Favoritas</label>
+                <select id="linguagem_favorita" multiple>
+                    <option value="Java">Java</option>
+                    <option value="Phyton">Phyton</option>
+                    <option value="PHP">PHP</option>
+                    <option value="JavaScript">JavaScripta></option>
+                </select><br>
 
-            <label>Comentários</label>
-            <textarea style="resize: none" id="comentario_aluno" row="10" class="ls-textarea-autoresize"></textarea><br>
+                <!-- Única resposta -->
+                <label>Idioma favorito</label>
+                <select id="idioma_favorito">
+                    <option value="Portugues">Java</option>
+                    <option value="Ingles">Phyton</option>
+                    <option value="Espanhoil">PHP</option>
+                    <option value="Frances">JavaScripta></option>
+                </select><br>
 
-            <label>Aceita os Termos?</label>
-            <input type="checkbox" id="aceite" name="aceite" required><br>
+                <label>Comentários</label>
+                <textarea style="resize: none" id="comentario_aluno" row="10"
+                    class="ls-textarea-autoresize"></textarea><br>
 
-            <input type="submit" id="enviar_form" name="enviar_form" value="Enviar"><br>
+                <label>Aceita os Termos?</label>
+                <input type="checkbox" id="aceite" name="aceite" required><br>
 
-        </form>
-        <!-- CTRL + ; : Comentar código -->
-        <!-- ALT + SHIFT + F : Utilizado para organizar e identar o código -->
-        <!-- ALT + SHIFT + SETA : Copiar linha para cima ou para baixo-->
-        <!-- CTRL + D : Seleciona textos similares -->
-    </div>
+                <input type="submit" id="enviar_form" name="enviar_form" value="Enviar"><br>
+
+            </form>
+            <!-- CTRL + ; : Comentar código -->
+            <!-- ALT + SHIFT + F : Utilizado para organizar e identar o código -->
+            <!-- ALT + SHIFT + SETA : Copiar linha para cima ou para baixo-->
+            <!-- CTRL + D : Seleciona textos similares -->
+        </div>
+        <footer>
+            <h6>Todos os direitos reservados.</h6>
+        </footer>
+    </main>
 </body>
+
 
 </html>

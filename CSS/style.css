@@ -1,0 +1,26 @@
+:root {
+    --cor-fonte: coral;
+    --fonte: 30px;
+}
+
+h2 {
+    font-size: var(--fonte);
+    color: var(--cor-fonte);
+
+}
+
+h6 {
+    font-size: var(--fonte);
+    color: var(--cor-fonte);
+
+}
+
+p {
+    font-size: var(--fonte);
+    color: var(--cor-fonte);
+
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
